@@ -24,99 +24,55 @@
         "name": "valvulas",
         "clickable": true,
         "visible": true,
-        "type": "polygon",
-        "objType": "Polygon",
-        "propertyNames": [
-          "Name",
-          "description",
-          "timestamp",
-          "begin",
-          "end",
-          "altitudeMode",
-          "tessellate",
-          "extrude",
-          "visibility",
-          "drawOrder",
-          "icon",
-          "area",
-          "elevation_avg",
-          "orientation",
-          "plant_count",
-          "id",
-          "type",
-          "plant_density",
-          "steepness_avg",
-          "system_index",
-          "steepness_max"
+        "type": "dem",
+        "clipped": false,
+        "mtlNames": [
+          "map (canvas)"
         ],
-        "label": {
-          "relative": true,
-          "font": "sans-serif",
-          "size": -3,
-          "color": "rgb(0,0,0)",
-          "olcolor": "rgb(255,255,255)",
-          "bgcolor": "rgba(255,255,255,0.69)",
-          "cncolor": 12632272
-        }
+        "mtlIdx": 0
       },
-      "data": {
-        "materials": [
-          {
-            "type": 0,
-            "c": 12011595,
-            "flat": 1,
-            "ds": 1
+      "data": [
+        {
+          "type": "block",
+          "layer": 0,
+          "block": 0,
+          "materials": [
+            {
+              "type": 0,
+              "image": {
+                "url": "./data/index/a0.png"
+              },
+              "ds": 1,
+              "mtlIndex": 0,
+              "useNow": true
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "layer": 0,
+          "block": 0,
+          "width": 12158.440965842223,
+          "height": 12158.440965842223,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "zScale": 2.5,
+          "grid": {
+            "width": 201,
+            "height": 201,
+            "url": "./data/index/a0.bin"
           }
-        ],
-        "blocks": [
-          {
-            "url": "./data/index/a0.json",
-            "featureCount": 46
-          }
-        ]
-      }
+        }
+      ]
     },
     {
       "type": "layer",
-      "id": 2,
+      "id": 1,
       "properties": {
         "name": "pendiente",
-        "clickable": true,
-        "visible": true,
-        "type": "polygon",
-        "objType": "Polygon",
-        "label": {
-          "relative": true,
-          "font": "sans-serif",
-          "size": -2,
-          "color": "rgb(0,0,0)",
-          "olcolor": "rgb(255,255,255)",
-          "bgcolor": "rgba(255,255,255,0.69)",
-          "cncolor": 12632272
-        }
-      },
-      "data": {
-        "materials": [
-          {
-            "type": 0,
-            "c": 12860473,
-            "flat": 1,
-            "ds": 1
-          }
-        ],
-        "blocks": [
-          {
-            "url": "./data/index/b0.json",
-            "featureCount": 46
-          }
-        ]
-      }
-    },
-    {
-      "type": "layer",
-      "id": 3,
-      "properties": {
-        "name": "masked_ballena_terrain_elevation_ALOS",
         "clickable": true,
         "visible": true,
         "type": "dem",
@@ -129,7 +85,58 @@
       "data": [
         {
           "type": "block",
-          "layer": 3,
+          "layer": 1,
+          "block": 0,
+          "materials": [
+            {
+              "type": 0,
+              "image": {
+                "url": "./data/index/b0.png"
+              },
+              "ds": 1,
+              "mtlIndex": 0,
+              "useNow": true
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "layer": 1,
+          "block": 0,
+          "width": 12158.440965842223,
+          "height": 12158.440965842223,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "zScale": 2.5,
+          "grid": {
+            "width": 201,
+            "height": 201,
+            "url": "./data/index/b0.bin"
+          }
+        }
+      ]
+    },
+    {
+      "type": "layer",
+      "id": 2,
+      "properties": {
+        "name": "elevacion",
+        "clickable": true,
+        "visible": true,
+        "type": "dem",
+        "clipped": false,
+        "mtlNames": [
+          "map (canvas)"
+        ],
+        "mtlIdx": 0
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 2,
           "block": 0,
           "materials": [
             {
@@ -145,7 +152,7 @@
         },
         {
           "type": "block",
-          "layer": 3,
+          "layer": 2,
           "block": 0,
           "width": 12158.440965842223,
           "height": 12158.440965842223,
