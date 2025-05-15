@@ -21,7 +21,7 @@
       "type": "layer",
       "id": 0,
       "properties": {
-        "name": "valvulas",
+        "name": "Elevation",
         "clickable": true,
         "visible": true,
         "type": "dem",
