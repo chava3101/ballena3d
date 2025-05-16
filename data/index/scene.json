@@ -169,6 +169,57 @@
           }
         }
       ]
+    },
+    {
+      "type": "layer",
+      "id": 3,
+      "properties": {
+        "name": "Est. Water Depth (m)",
+        "clickable": true,
+        "visible": true,
+        "type": "dem",
+        "clipped": false,
+        "mtlNames": [
+          "map (canvas)"
+        ],
+        "mtlIdx": 0
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 2,
+          "block": 0,
+          "materials": [
+            {
+              "type": 0,
+              "image": {
+                "url": "./data/index/d0.png"
+              },
+              "ds": 1,
+              "mtlIndex": 0,
+              "useNow": true
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "layer": 2,
+          "block": 0,
+          "width": 12158.440965842223,
+          "height": 12158.440965842223,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "zScale": 2.5,
+          "grid": {
+            "width": 201,
+            "height": 201,
+            "url": "./data/index/d0.bin"
+          }
+        }
+      ]
     }
   ]
 }
